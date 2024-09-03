@@ -24,18 +24,30 @@ export default {
         {
           id: 1,
           texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+            '¿Cuál es una de las principales ventajas del uso de TIC en la comunicación organizacional?',
+          imagen: require('@/assets/curso/preguntas/img1.png'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
             {
-              id: 'c',
-              texto: 'Explotación extensiva o traspatio',
+              id: 'a',
+              texto: 'Optimización de la gestión de la información.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Incremento de la carga de trabajo.',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
+            {
+              id: 'c',
+              texto: 'Reducción del contacto interpersonal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Mayor complejidad en las tareas.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
@@ -44,7 +56,7 @@ export default {
           id: 2,
           texto:
             'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          imagen: require('@/assets/curso/preguntas/img2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -78,7 +90,7 @@ export default {
         {
           id: 3,
           texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/curso/preguntas/img3.png'),
           opciones: [
             { id: 'a', texto: 'Opción A', esCorrecta: false },
             { id: 'b', texto: 'Opción B', esCorrecta: false },
@@ -91,7 +103,7 @@ export default {
         {
           id: 4,
           texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/curso/preguntas/img1.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Opción A', esCorrecta: true },
@@ -105,7 +117,72 @@ export default {
         {
           id: 5,
           texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/curso/preguntas/img2.png'),
+          opciones: [
+            { id: 'a', texto: 'Opción A', esCorrecta: false },
+            { id: 'b', texto: 'Opción B', esCorrecta: true },
+            { id: 'c', texto: 'Opción C', esCorrecta: false },
+            { id: 'd', texto: 'Opción D', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 6,
+          texto: 'Texto de la quinta pregunta 6',
+          imagen: require('@/assets/curso/preguntas/img3.png'),
+          opciones: [
+            { id: 'a', texto: 'Opción A', esCorrecta: false },
+            { id: 'b', texto: 'Opción B', esCorrecta: true },
+            { id: 'c', texto: 'Opción C', esCorrecta: false },
+            { id: 'd', texto: 'Opción D', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 7,
+          texto: 'Texto de la quinta pregunta 7',
+          imagen: require('@/assets/curso/preguntas/img1.png'),
+          opciones: [
+            { id: 'a', texto: 'Opción A', esCorrecta: false },
+            { id: 'b', texto: 'Opción B', esCorrecta: true },
+            { id: 'c', texto: 'Opción C', esCorrecta: false },
+            { id: 'd', texto: 'Opción D', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 8,
+          texto: 'Texto de la quinta pregunta 8',
+          imagen: require('@/assets/curso/preguntas/img2.png'),
+          opciones: [
+            { id: 'a', texto: 'Opción A', esCorrecta: false },
+            { id: 'b', texto: 'Opción B', esCorrecta: true },
+            { id: 'c', texto: 'Opción C', esCorrecta: false },
+            { id: 'd', texto: 'Opción D', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 9,
+          texto: 'Texto de la quinta pregunta 9',
+          imagen: require('@/assets/curso/preguntas/img3.png'),
+          opciones: [
+            { id: 'a', texto: 'Opción A', esCorrecta: false },
+            { id: 'b', texto: 'Opción B', esCorrecta: true },
+            { id: 'c', texto: 'Opción C', esCorrecta: false },
+            { id: 'd', texto: 'Opción D', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 10,
+          texto: 'Texto de la quinta pregunta 10',
+          imagen: require('@/assets/curso/preguntas/img1.png'),
           opciones: [
             { id: 'a', texto: 'Opción A', esCorrecta: false },
             { id: 'b', texto: 'Opción B', esCorrecta: true },
