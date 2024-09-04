@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="La síntesis  describe la importancia de las TIC en la comunicación organizacional, destacando cómo optimizan la gestión de la información, fomentan la innovación, y mejoran la competitividad y productividad empresarial. Se presentan cuatro áreas clave: funcionalidad, sociedad de la información, impacto en la organización, y aplicaciones de las TIC. Cada área detalla aspectos específicos como el acceso eficiente a recursos tecnológicos, la globalización y adopción de nuevas tecnologías, la inclusión y participación activa, y el uso de herramientas como el correo electrónico y el comercio electrónico.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

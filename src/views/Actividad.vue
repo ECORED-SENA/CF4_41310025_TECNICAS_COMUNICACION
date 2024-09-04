@@ -15,10 +15,10 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Manejo de los residuos sólidos en la producción avícola.',
+      tema: 'Importancia de las TIC en la comunicación organizacional.',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Lea la pregunta de cada ítem y seleccione la respuesta correcta.',
       barajarPreguntas: false,
       preguntas: [
         {
@@ -50,144 +50,212 @@ export default {
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
           texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
+            '¿Qué término describe la adopción de nuevas tecnologías en la sociedad de la información?',
           imagen: require('@/assets/curso/preguntas/img2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
-              esCorrecta: false,
+              texto: 'Globalización tecnológica.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
+              texto: 'Rechazo tecnológico.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
-              esCorrecta: true,
+              texto: 'Desconexión digital.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'Fragmentación informativa.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Perfecto! Has seleccionado la respuesta correcta.',
-          mensaje_incorrecto: 'Esa no es la respuesta correcta. ¡Ánimo!',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 3,
-          texto: 'Texto de la tercera pregunta 3',
+          texto:
+            '¿Cuál de las siguientes es una aplicación común de las TIC en las organizaciones?',
           imagen: require('@/assets/curso/preguntas/img3.png'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
+            { id: 'a', texto: 'Correo electrónico.', esCorrecta: true },
+            { id: 'b', texto: 'Gestión de residuos.', esCorrecta: false },
+            { id: 'c', texto: 'Producción en masa.', esCorrecta: false },
+            { id: 'd', texto: 'Opción D', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
+          texto:
+            '¿Qué impacto tienen las TIC en la competitividad empresarial?',
           imagen: require('@/assets/curso/preguntas/img1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Mejora en la competitividad y productividad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Reducción de costos laborales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aumento de los tiempos de espera.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Desorganización interna.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 5,
-          texto: 'Texto de la quinta pregunta 5',
+          texto:
+            '¿Qué herramienta de TIC es esencial para la interacción social dentro de una organización?',
           imagen: require('@/assets/curso/preguntas/img2.png'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            { id: 'a', texto: 'Redes sociales internas.', esCorrecta: true },
+            { id: 'b', texto: 'Máquinas expendedoras.', esCorrecta: false },
+            { id: 'c', texto: 'Planificación financiera.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Equipos de protección personal.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 6,
-          texto: 'Texto de la quinta pregunta 6',
+          texto:
+            '¿Cuál es un ejemplo de innovación social facilitada por las TIC?',
           imagen: require('@/assets/curso/preguntas/img3.png'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            { id: 'a', texto: 'Creación de valor agregado.', esCorrecta: true },
+            {
+              id: 'b',
+              texto: 'Reducción de costos operativos.',
+              esCorrecta: false,
+            },
+            { id: 'c', texto: 'Aumento de la burocracia.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Despersonalización de servicios.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 7,
-          texto: 'Texto de la quinta pregunta 7',
+          texto:
+            '¿Qué aspecto no se relaciona con la funcionalidad de las TIC en la organización?',
           imagen: require('@/assets/curso/preguntas/img1.png'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Aumento del espacio físico necesario.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Acceso eficiente a recursos tecnológicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Mejora en la gestión de la información.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Innovación social.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 8,
-          texto: 'Texto de la quinta pregunta 8',
+          texto:
+            '¿Cuál de las siguientes es una ventaja de la inclusión y participación activa a través de las TIC?',
           imagen: require('@/assets/curso/preguntas/img2.png'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Mejora de la cultura organizacional.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Reducción de la diversidad.',
+              esCorrecta: false,
+            },
+            { id: 'c', texto: 'Aumento de la burocracia.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Disminución de la productividad.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 9,
-          texto: 'Texto de la quinta pregunta 9',
+          texto:
+            '¿Qué sector ha sido transformado significativamente por las aplicaciones de las TIC?',
           imagen: require('@/assets/curso/preguntas/img3.png'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            { id: 'a', texto: 'Comercio electrónico.', esCorrecta: true },
+            { id: 'b', texto: 'Agricultura.', esCorrecta: false },
+            { id: 'c', texto: 'Minería.', esCorrecta: false },
+            { id: 'd', texto: 'Transporte público.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 10,
-          texto: 'Texto de la quinta pregunta 10',
+          texto:
+            '¿Qué función cumplen los motores de búsqueda en la comunicación organizacional?',
           imagen: require('@/assets/curso/preguntas/img1.png'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Facilitar el acceso a información relevante.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Incrementar el aislamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Desmotivar la interacción social.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Complejizar la toma de decisiones.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
