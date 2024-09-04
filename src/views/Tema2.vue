@@ -109,70 +109,70 @@
 
     .row.justify-content-center.mb-5
       .col-lg-6
-        .bgPurple.px-3.py-2.mb-2
+        .bgP10.px-3.py-2.mb-2.br-8
           .row.justify-content-center.align-items-center
             .col-auto
               img(src='@/assets/curso/tema2/img14.svg', style="max-width: 39px", alt='').m-auto
             .col
-              p.mb-0.text-white Modernización de la gestión de la información y la comunicación organizacional.
+              p.mb-0 Modernización de la gestión de la información y la comunicación organizacional.
 
-        .bgPurple.px-3.py-2.mb-2
+        .bgP10.px-3.py-2.mb-2.br-8
           .row.justify-content-center.align-items-center
             .col-auto
               img(src='@/assets/curso/tema2/img15.svg', style="max-width: 39px", alt='').m-auto
             .col
-              p.mb-0.text-white Ubicación de centros de atención al cliente.
+              p.mb-0 Ubicación de centros de atención al cliente.
 
-        .bgPurple.px-3.py-2.mb-2
+        .bgP10.px-3.py-2.mb-2.br-8
           .row.justify-content-center.align-items-center
             .col-auto
               img(src='@/assets/curso/tema2/img16.svg', style="max-width: 39px", alt='').m-auto
             .col
-              p.mb-0.text-white Expansión del mercado potencial (comercio electrónico).
+              p.mb-0 Expansión del mercado potencial (comercio electrónico).
 
 
-        .bgPurple.px-3.py-2.mb-2
+        .bgP10.px-3.py-2.mb-2.br-8
           .row.justify-content-center.align-items-center
             .col-auto
               img(src='@/assets/curso/tema2/img17.svg', style="max-width: 39px", alt='').m-auto
             .col
-              p.mb-0.text-white Reducción de costos en procesos logísticos.
+              p.mb-0 Reducción de costos en procesos logísticos.
 
 
-        .bgPurple.px-3.py-2.mb-2
+        .bgP10.px-3.py-2.mb-2.br-8
           .row.justify-content-center.align-items-center
             .col-auto
               img(src='@/assets/curso/tema2/img18.svg', style="max-width: 39px", alt='').m-auto
             .col
-              p.mb-0.text-white Investigación y desarrollo.
+              p.mb-0 Investigación y desarrollo.
 
-        .bgPurple.px-3.py-2.mb-2
+        .bgP10.px-3.py-2.mb-2.br-8
           .row.justify-content-center.align-items-center
             .col-auto
               img(src='@/assets/curso/tema2/img19.svg', style="max-width: 39px", alt='').m-auto
             .col
-              p.mb-0.text-white Formación del personal.
+              p.mb-0 Formación del personal.
 
-        .bgPurple.px-3.py-2.mb-2
+        .bgP10.px-3.py-2.mb-2.br-8
           .row.justify-content-center.align-items-center
             .col-auto
               img(src='@/assets/curso/tema2/img20.svg', style="max-width: 39px", alt='').m-auto
             .col
-              p.mb-0.text-white Innovaciones comerciales, organizativas y logísticas.
+              p.mb-0 Innovaciones comerciales, organizativas y logísticas.
 
-        .bgPurple.px-3.py-2.mb-2
+        .bgP10.px-3.py-2.mb-2.br-8
           .row.justify-content-center.align-items-center
             .col-auto
               img(src='@/assets/curso/tema2/img21.svg', style="max-width: 39px", alt='').m-auto
             .col
-              p.mb-0.text-white Desarrollo de innovaciones en servicios y respuestas a las necesidades de los consumidores.
+              p.mb-0 Desarrollo de innovaciones en servicios y respuestas a las necesidades de los consumidores.
 
-        .bgPurple.px-3.py-2.mb-2
+        .bgP10.px-3.py-2.mb-2.br-8
           .row.justify-content-center.align-items-center
             .col-auto
               img(src='@/assets/curso/tema2/img22.svg', style="max-width: 39px", alt='').m-auto
             .col
-              p.mb-0.text-white Organización menos jerarquizada, con una distribución sistemática y práctica de la información.
+              p.mb-0 Organización menos jerarquizada, con una distribución sistemática y práctica de la información.
 
       .col-lg-6.d-none.d-lg-block
         img(src='@/assets/curso/tema2/img13.png', style="max-width: 100%", alt='').m-auto
