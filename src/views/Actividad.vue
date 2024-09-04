@@ -92,7 +92,7 @@ export default {
             { id: 'a', texto: 'Correo electrónico.', esCorrecta: true },
             { id: 'b', texto: 'Gestión de residuos.', esCorrecta: false },
             { id: 'c', texto: 'Producción en masa.', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            { id: 'd', texto: 'Transporte de mercancías.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',

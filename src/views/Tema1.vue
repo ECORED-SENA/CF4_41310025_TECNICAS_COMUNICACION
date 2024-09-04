@@ -13,9 +13,9 @@
 
         .tarjeta.bgP10.p-4
           .row.justify-content-center.align-items-center
-            .col-auto 
-              img(src='@/assets/curso/tema1/img1.svg', style="max-width: 94px", alt='').m-auto
-            .col
+            .col-md-auto
+              img(src='@/assets/curso/tema1/img1.svg', style="max-width: 94px", alt='').mx-auto.mb-4.mb-md-0
+            .col-md
               p.mb-0 Los procesos de comunicación establecen las relaciones entre los miembros de una organización; en estos procesos de intercambio se asignan y delegan funciones y compromisos. Las comunicaciones internas promueven la participación, la integración y la convivencia dentro del marco de la cultura organizacional, donde adquieren sentido el ejercicio de funciones y el reconocimiento de las capacidades individuales y grupales.
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema1/img2.png', style="max-width: 100%", alt='').m-auto
@@ -26,9 +26,9 @@
       .col-lg-8
         .tarjeta.bgT.p-4
           .row.justify-content-center.align-items-center
-            .col-auto
-              img(src='@/assets/curso/tema1/img3.svg', alt='')
-            .col
+            .col-md-auto
+              img(src='@/assets/curso/tema1/img3.svg', style="max-width:132px" alt='').mx-auto.mb-4.mb-md-0
+            .col-md
               p #[strong Tecnología y uso del tiempo]
               p.mb-0 La tecnología permitirá a las personas hacer un mejor uso de su tiempo, centrar su atención y fortalecer relaciones en el trabajo, en el hogar y en su vida diaria.
 
@@ -52,23 +52,23 @@
       .col-lg-8
         .tarjeta.bgA10.p-4
           .row.justify-content-center.align-items-center
-            .col-auto
-              img(src='@/assets/curso/tema1/img5.svg', alt='')
-            .col
+            .col-md-auto
+              img(src='@/assets/curso/tema1/img5.svg', style="max-width:132px" alt='').mx-auto.mb-4.mb-md-0
+            .col-md
               p #[strong Impacto en el sistema económico e ideológico]
               p.mb-0 Las tecnologías han contribuido significativamente a la formación de un sistema económico e ideológico desigual, que marca la realidad en la que vivimos hoy.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col  
+      .col-md  
         p Este fenómeno subraya las complejidades y desafíos que la era tecnológica presenta, al tiempo que destaca su omnipresencia en todos los aspectos de la vida.
 
         p La sociedad de la información ha transformado los modos de vida, el trabajo, y las actividades de diversión y esparcimiento, aunque no sin ciertos riesgos o peligros inminentes. A pesar de estos desafíos, la Sociedad de la Información representa un avance positivo para el desarrollo económico, social y humano.
 
-      .col-auto 
+      .col-md-auto.d-none.d-md-block 
         img(src='@/assets/curso/tema1/img6.svg', style="max-width: 100%", alt='').m-auto
 
     .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3
         .tarjeta--boton.bgP10.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
@@ -76,7 +76,7 @@
                 img(src='@/assets/curso/tema1/img7.svg', style="max-width: 82px", alt='').m-auto
           h5.text-center Objetivo principal
           p.text-small  Establecer las bases para crear una Sociedad de la Información inclusiva, donde todos puedan participar.
-      .col-lg-4
+      .col-lg-4.mb-3
         .tarjeta--boton.bgP10.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
@@ -85,7 +85,7 @@
           h5.text-center Promoción y masificación
           p.text-small Promover la masificación de la tecnología en las zonas más desfavorecidas.
 
-      .col-lg-4
+      .col-lg-4.mb-3
         .tarjeta--boton.bgP10.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7

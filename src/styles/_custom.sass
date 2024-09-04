@@ -92,11 +92,14 @@
 .full-width-bg
   height: 100% // Ajusta la altura según tus necesidades
   width: calc(100% + var(--bs-gutter-x) * 2) // Extiende el fondo para cubrir el padding
-  margin-left: -3rem // Mueve el fondo hacia la izquierda para cubrir el padding
-  margin-right: -3rem // Mueve el fondo hacia la derecha para cubrir el padding
   background-size: cover // Ajusta según tus necesidades ('cover', 'contain', etc.)
   background-repeat: no-repeat // Evita la repetición del fondo
   background-position: center // Centra el fondo
+  margin-left: -3rem // Mueve el fondo hacia la izquierda para cubrir el padding
+  margin-right: -3rem // Mueve el fondo hacia la derecha para cubrir el padding
+  @media screen and (max-width: $bp-min-sm)
+    padding-left: 3rem // Ajusta el padding según el margen negativo
+    padding-right: 3rem // Ajusta el padding según el margen negativo
 
 .bgCarrusel
   @extend .full-width-bg // Hereda las propiedades de .full-width-bg
@@ -116,6 +119,18 @@
           font-size: 16px // Ajusta el tamaño del icono si es necesario
 
 
+.slyder-f__main
+  @media screen and (max-width: $bp-max-sm)
+    width: 76%
+  @media screen and (max-width: $bp-max-xs)
+    width: 60%
+.slyder-f__btn
+  @media screen and (max-width: $bp-max-sm)
+    width: 12%
+  @media screen and (max-width: $bp-max-xs)
+    width: 20%
+
+
 .title-container
   display: flex
   align-items: center
@@ -125,7 +140,7 @@
   &::before
     content: ""
     position: absolute
-    top: 50%
+    top: 53%
     left: 0
     transform: translateY(-50%)
     width: 45px
@@ -145,9 +160,19 @@
   &::after
     content: ""
     display: block
-    width: 106% // El borde se ajusta dinámicamente al ancho del texto
+    width: 107% // El borde se ajusta dinámicamente al ancho del texto
     height: 5px
     background-color: $color-secundario
     position: absolute
     bottom: -8px
     left: -20px
+
+.tarjeta--container > .tarjeta:first-child
+  @media screen and (max-width: $bp-max-sm)
+    border-top-right-radius: 20px
+    border-bottom-right-radius: 20px
+
+.tarjeta--container > .tarjeta:last-child
+  @media screen and (max-width: $bp-max-sm)
+    border-top-left-radius: 20px
+    border-bottom-left-radius: 20px

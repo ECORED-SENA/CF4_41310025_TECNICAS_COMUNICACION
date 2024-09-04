@@ -8,10 +8,10 @@
       h1 Tecnologías de la Información y la Comunicación (TIC)
 
     .row.justify-content-center.align-items-center.mb-5
-      .col
+      .col-md.order-1.order-md-0
         p.mb-0 Las tecnologías de la información y la comunicación (TIC) están diseñadas con el propósito de mejorar la vida de todos los habitantes del planeta. Estas tecnologías no solo comprenden herramientas e instrumentos que promueven la causa de la libertad y la democracia, sino que también proporcionan los medios necesarios para propagar el conocimiento y facilitar la comprensión entre los seres humanos.
-      .col-auto
-        img(src='@/assets/curso/tema2/img1.svg', style="max-width: 132px", alt='').m-auto
+      .col-md-auto.order-0.order-md-1
+        img(src='@/assets/curso/tema2/img1.svg', style="max-width: 132px", alt='').mx-auto.mb-4.mb-md-0
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -34,7 +34,7 @@
     .bgCarrusel.mb-5
       .p-4
         .row.justify-content-center.align-items-center.my-5
-          .col-lg-3
+          .col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/tema2/img3.png', style="max-width: 100%", alt='').m-auto
           .col-lg-8
             SlyderF.mb-5(columnas="col-lg-6 col-xxl-4")
@@ -174,7 +174,7 @@
             .col
               p.mb-0.text-white Organización menos jerarquizada, con una distribución sistemática y práctica de la información.
 
-      .col-lg-6
+      .col-lg-6.d-none.d-lg-block
         img(src='@/assets/curso/tema2/img13.png', style="max-width: 100%", alt='').m-auto
 
 
@@ -184,7 +184,7 @@
     p.mb-5 Las TIC están enfocadas principalmente en el almacenamiento, recuperación, procesamiento y comunicación de la información, considerando dos aspectos:
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.bgA10.p-5
+      .col-md.tarjeta.bgA10.p-5.mb-3
         .row.justify-content-center.align-items-center.mb-4
           .col-auto
             img(src='@/assets/curso/tema2/img23.svg', style="max-width: 82px", alt='').m-auto
@@ -193,7 +193,7 @@
           
         p Programas para controlar virus, comprimir archivos, procesadores de texto, hojas de cálculo, gestores de bases de datos, y la funcionalidad de la multimedia, que permite el acceso y uso de presentaciones, audios, imágenes, videos y todo tipo de aplicaciones multimedia.
 
-      .col-md.tarjeta.bgP10.p-5
+      .col-md.tarjeta.bgP10.p-5.mb-3
         .row.justify-content-center.align-items-center.mb-4
           .col-auto
             img(src='@/assets/curso/tema2/img24.svg', style="max-width: 82px", alt='').m-auto
@@ -205,21 +205,21 @@
     p.mb-5 Internet posibilita dos tipos de comunicación:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5.mb-3
         .tarjeta.bgT.p-4
           .row.justify-content-center.align-items-center
-            .col-auto
-              img(src='@/assets/curso/tema2/img25.svg', style="max-width: 132px", alt='').m-auto
-            .col
+            .col-md-auto
+              img(src='@/assets/curso/tema2/img25.svg', style="max-width: 132px", alt='').mx-auto.mb-4.mb-md-0
+            .col-md
               h5.mb-0 Sincrónica
               p.mb-0 En tiempo real, como chat, mensajes, audio y videoconferencia.
 
-      .col-lg-5
+      .col-lg-5.mb-3
         .tarjeta.bgT.p-4
           .row.justify-content-center.align-items-center
-            .col-auto
-              img(src='@/assets/curso/tema2/img26.svg', style="max-width: 132px", alt='').m-auto
-            .col
+            .col-md-auto
+              img(src='@/assets/curso/tema2/img26.svg', style="max-width: 132px", alt='').mx-auto.mb-4.mb-md-0
+            .col-md
               h5.mb-0 Asincrónica
               p.mb-0 En tiempos diferentes, como noticias grupales, listas de distribución y correo electrónico.
 </template>

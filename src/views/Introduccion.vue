@@ -11,9 +11,9 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-auto
-        img(src='@/assets/curso/intro/img1.svg', style="max-width: 146px", alt='').m-auto
-      .col
+      .col-md-auto
+        img(src='@/assets/curso/intro/img1.svg', style="max-width: 146px", alt='').mx-auto.mb-4.mb-md-0
+      .col-md
         p.mb-0 La tecnología de la información y la comunicación (TIC) ha revolucionado la manera en que las organizaciones gestionan la información y se comunican. Su accesibilidad y usabilidad desempeñan un papel crucial en la interacción social dentro de las empresas, permitiendo compartir recursos y servicios de manera eficiente. Esto no solo favorece una mayor competitividad, sino que también impulsa la productividad, generando un valor agregado significativo.
 
 
