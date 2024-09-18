@@ -19,14 +19,14 @@ export default {
       titulo: 'Cuestionario',
       introduccion:
         'Lea la pregunta de cada ítem y seleccione la respuesta correcta.',
-      barajarPreguntas: false,
+      barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
           texto:
             '¿Cuál es una de las principales ventajas del uso de TIC en la comunicación organizacional?',
           imagen: require('@/assets/curso/preguntas/img1.png'),
-          barajarRespuestas: false,
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
@@ -88,6 +88,7 @@ export default {
           texto:
             '¿Cuál de las siguientes es una aplicación común de las TIC en las organizaciones?',
           imagen: require('@/assets/curso/preguntas/img3.png'),
+          barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Correo electrónico.', esCorrecta: true },
             { id: 'b', texto: 'Gestión de residuos.', esCorrecta: false },
@@ -129,6 +130,7 @@ export default {
           texto:
             '¿Qué herramienta de TIC es esencial para la interacción social dentro de una organización?',
           imagen: require('@/assets/curso/preguntas/img2.png'),
+          barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Redes sociales internas.', esCorrecta: true },
             { id: 'b', texto: 'Máquinas expendedoras.', esCorrecta: false },
@@ -147,6 +149,7 @@ export default {
           texto:
             '¿Cuál es un ejemplo de innovación social facilitada por las TIC?',
           imagen: require('@/assets/curso/preguntas/img3.png'),
+          barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Creación de valor agregado.', esCorrecta: true },
             {
@@ -169,6 +172,7 @@ export default {
           texto:
             '¿Qué aspecto no se relaciona con la funcionalidad de las TIC en la organización?',
           imagen: require('@/assets/curso/preguntas/img1.png'),
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
@@ -195,6 +199,7 @@ export default {
           texto:
             '¿Cuál de las siguientes es una ventaja de la inclusión y participación activa a través de las TIC?',
           imagen: require('@/assets/curso/preguntas/img2.png'),
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
@@ -221,6 +226,7 @@ export default {
           texto:
             '¿Qué sector ha sido transformado significativamente por las aplicaciones de las TIC?',
           imagen: require('@/assets/curso/preguntas/img3.png'),
+          barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Comercio electrónico.', esCorrecta: true },
             { id: 'b', texto: 'Agricultura.', esCorrecta: false },
@@ -235,6 +241,7 @@ export default {
           texto:
             '¿Qué función cumplen los motores de búsqueda en la comunicación organizacional?',
           imagen: require('@/assets/curso/preguntas/img1.png'),
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',

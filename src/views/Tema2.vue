@@ -38,21 +38,21 @@
             img(src='@/assets/curso/tema2/img3.png', style="max-width: 100%", alt='').m-auto
           .col-lg-8
             SlyderF.mb-5(columnas="col-lg-6 col-xxl-4")
-              .tarjeta.bgWhite.p-4
+              .tarjeta.bgWhite.p-4.shadow-soft
                 .row.justify-content-center.mb-3
                   .col-8
                     img(src='@/assets/curso/tema2/img4.svg', style="max-width: 82px", alt='').m-auto
                 h5.text-center Las redes
                 p.text-center Conjunto de equipos interconectados que comparten recursos utilizando dispositivos que permiten el envío y recepción de datos. Facilitan la compartición de recursos y reducción de costos en una red informática.
 
-              .tarjeta.bgWhite.p-4
+              .tarjeta.bgWhite.p-4.shadow-soft
                 .row.justify-content-center.mb-3
                   .col-8
                     img(src='@/assets/curso/tema2/img5.svg', style="max-width: 82px", alt='').m-auto
                 h5.text-center Los servicios
                 p.text-center Las TIC han transformado el acceso a contenidos, servicios y aplicaciones. Servicios como comercio electrónico, banca en línea, y acceso a la administración pública han surgido como nuevos canales de difusión de productos y servicios.
 
-              .tarjeta.bgWhite.p-4
+              .tarjeta.bgWhite.p-4.shadow-soft
                 .row.justify-content-center.mb-3
                   .col-8
                     img(src='@/assets/curso/tema2/img6.svg', style="max-width: 82px", alt='').m-auto
@@ -60,42 +60,42 @@
                 p.text-center Actúan como puntos de acceso a la sociedad de la información, evolucionando constantemente para aprovechar la digitalización y la disponibilidad de infraestructuras para el intercambio de información digital.
 
 
-              .tarjeta.bgWhite.p-4
+              .tarjeta.bgWhite.p-4.shadow-soft
                 .row.justify-content-center.mb-3
                   .col-8
                     img(src='@/assets/curso/tema2/img7.svg', style="max-width: 82px", alt='').m-auto
                 h5.text-center Correo electrónico
                 p.text-center Actividad común que ha transformado las formas de interacción, permitiendo la comunicación instantánea entre usuarios a través de internet.
 
-              .tarjeta.bgWhite.p-4
+              .tarjeta.bgWhite.p-4.shadow-soft
                 .row.justify-content-center.mb-3
                   .col-8
                     img(src='@/assets/curso/tema2/img8.svg', style="max-width: 82px", alt='').m-auto
                 h5.text-center Motores de búsqueda
                 p.text-center Herramientas clave en la sociedad de la información, como Google o Yahoo, que permiten encontrar y extraer información relevante de la web.
 
-              .tarjeta.bgWhite.p-4
+              .tarjeta.bgWhite.p-4.shadow-soft
                 .row.justify-content-center.mb-3
                   .col-8
                     img(src='@/assets/curso/tema2/img9.svg', style="max-width: 82px", alt='').m-auto
                 h5.text-center Banca en línea
                 p.text-center Ha experimentado un crecimiento significativo debido a las TIC, ofreciendo comodidad y facilidad en la gestión de productos bancarios.
 
-              .tarjeta.bgWhite.p-4
+              .tarjeta.bgWhite.p-4.shadow-soft
                 .row.justify-content-center.mb-3
                   .col-8
                     img(src='@/assets/curso/tema2/img10.svg', style="max-width: 82px", alt='').m-auto
                 h5.text-center Comercio electrónico
                 p.text-center Transacciones virtuales realizadas a través de internet, representando una nueva forma de comercio global.
 
-              .tarjeta.bgWhite.p-4
+              .tarjeta.bgWhite.p-4.shadow-soft
                 .row.justify-content-center.mb-3
                   .col-8
                     img(src='@/assets/curso/tema2/img11.svg', style="max-width: 82px", alt='').m-auto
                 h5.text-center Audio y música
                 p.text-center Uso de reproductores de audio portátiles como parte de la evolución de los terminales para el consumo de contenido digital.
 
-              .tarjeta.bgWhite.p-4
+              .tarjeta.bgWhite.p-4.shadow-soft
                 .row.justify-content-center.mb-3
                   .col-8
                     img(src='@/assets/curso/tema2/img12.svg', style="max-width: 82px", alt='').m-auto
@@ -206,12 +206,12 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.mb-3
-        .tarjeta.bgT.p-4
+        .tarjeta.bgA10.p-4
           .row.justify-content-center.align-items-center
             .col-md-auto
               img(src='@/assets/curso/tema2/img25.svg', style="max-width: 132px", alt='').mx-auto.mb-4.mb-md-0
             .col-md
-              h5.mb-0 Sincrónica
+              h5.mb-2 Sincrónica
               p.mb-0 En tiempo real, como chat, mensajes, audio y videoconferencia.
 
       .col-lg-5.mb-3
@@ -220,7 +220,7 @@
             .col-md-auto
               img(src='@/assets/curso/tema2/img26.svg', style="max-width: 132px", alt='').mx-auto.mb-4.mb-md-0
             .col-md
-              h5.mb-0 Asincrónica
+              h5.mb-2 Asincrónica
               p.mb-0 En tiempos diferentes, como noticias grupales, listas de distribución y correo electrónico.
 </template>
 
