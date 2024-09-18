@@ -75,7 +75,7 @@
               figure
                 img(src='@/assets/curso/tema1/img7.svg', style="max-width: 82px", alt='').m-auto
           h5.text-center Objetivo principal
-          p.text-small  Establecer las bases para crear una Sociedad de la Información inclusiva, donde todos puedan participar.
+          p.text-small.text-center  Establecer las bases para crear una Sociedad de la Información inclusiva, donde todos puedan participar.
       .col-lg-4.mb-3
         .tarjeta--boton.bgP10.p-4.h-100
           .row.justify-content-center.mb-3
@@ -83,7 +83,7 @@
               figure
                 img(src='@/assets/curso/tema1/img8.svg', style="max-width: 82px", alt='').m-auto
           h5.text-center Promoción y masificación
-          p.text-small Promover la masificación de la tecnología en las zonas más desfavorecidas.
+          p.text-small.text-center Promover la masificación de la tecnología en las zonas más desfavorecidas.
 
       .col-lg-4.mb-3
         .tarjeta--boton.bgP10.p-4.h-100
@@ -92,7 +92,7 @@
               figure
                 img(src='@/assets/curso/tema1/img9.svg', style="max-width: 82px", alt='').m-auto
           h5.text-center Potenciación como herramienta
-          p.text-small  Posicionar la Sociedad de la Información como una herramienta clave para el desarrollo económico y social.
+          p.text-small.text-center  Posicionar la Sociedad de la Información como una herramienta clave para el desarrollo económico y social.
 
     p Este enfoque busca asegurar que los beneficios de la sociedad de la información sean accesibles para todos, especialmente en áreas que históricamente han quedado rezagadas.
 
