@@ -101,9 +101,9 @@
   background-position: center // Centra el fondo
   margin-left: -3rem // Mueve el fondo hacia la izquierda para cubrir el padding
   margin-right: -3rem // Mueve el fondo hacia la derecha para cubrir el padding
-  @media screen and (max-width: $bp-min-sm)
-    padding-left: 3rem // Ajusta el padding según el margen negativo
-    padding-right: 3rem // Ajusta el padding según el margen negativo
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem // Ajusta el padding según el margen negativo
+    padding-right: 1.5rem // Ajusta el padding según el margen negativo
 
 .bgCarrusel
   @extend .full-width-bg // Hereda las propiedades de .full-width-bg
@@ -187,3 +187,9 @@
 .shadow
   &-soft
     //box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
+
+
+.banner-interno__titulo__icono
+  background: #fff !important
+  i 
+    color: #12263F !important

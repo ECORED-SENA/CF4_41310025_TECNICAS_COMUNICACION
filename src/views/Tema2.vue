@@ -32,12 +32,12 @@
 
 
     .bgCarrusel.mb-5
-      .p-4
-        .row.justify-content-center.align-items-center.my-5
+      .p-md-4.py-3.py-md-4
+        .row.justify-content-center.align-items-center.my-md-5.my-3
           .col-lg-3.d-none.d-lg-block
             img(src='@/assets/curso/tema2/img3.png', style="max-width: 100%", alt='').m-auto
           .col-lg-8
-            SlyderF.mb-5(columnas="col-lg-6 col-xxl-4")
+            SlyderF(columnas="col-lg-6 col-xxl-4")
               .tarjeta.bgWhite.p-4.shadow-soft
                 .row.justify-content-center.mb-3
                   .col-8
