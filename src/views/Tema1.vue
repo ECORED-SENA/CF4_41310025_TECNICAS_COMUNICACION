@@ -92,7 +92,7 @@
               figure
                 img(src='@/assets/curso/tema1/img9.svg', style="max-width: 82px", alt='').m-auto
           h5.text-center Potenciación como herramienta
-          p.text-small.text-center  Posicionar la Sociedad de la Información como una herramienta clave para el desarrollo económico y social.
+          p.text-small.text-center  Posicionar la sociedad de la información como una herramienta clave para el desarrollo económico y social.
 
     p Este enfoque busca asegurar que los beneficios de la sociedad de la información sean accesibles para todos, especialmente en áreas que históricamente han quedado rezagadas.
 

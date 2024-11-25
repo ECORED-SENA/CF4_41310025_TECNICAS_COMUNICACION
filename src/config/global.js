@@ -109,7 +109,7 @@ export default {
     {
       tema: 'Sociedad de la información',
       referencia:
-        'Moretti, M., & Aguirre, A. (2020). <i>Sociedad de la información y transformación digital: Informe de Cátedra Libre Teletrabajo y Sociedad</i>. Universidad Nacional de La Plata.',
+        'Moretti, M., & Aguirre, A. (2020). Sociedad de la información y transformación digital: Informe de Cátedra Libre Teletrabajo y Sociedad. Universidad Nacional de La Plata.',
       tipo: 'Documento',
       link:
         'http://sedici.unlp.edu.ar/bitstream/handle/10915/108656/Documento_completo.pdf-PDFA.pdf?sequence=1&isAllowed=y',
@@ -124,7 +124,7 @@ export default {
     {
       tema: 'Tecnologías de la Información y la Comunicación (TIC)',
       referencia:
-        'Peñafiel-Loor, J., Pibaque-Pionce, M., y Alvarez-Indacochea, A. (2022). <i>Las tecnologías de la información y comunicación y su incidencia en la gestión empresarial</i>. Dom. Cien., 8(1), 1186-1200.',
+        'Peñafiel-Loor, J., Pibaque-Pionce, M., y Alvarez-Indacochea, A. (2022). Las tecnologías de la información y comunicación y su incidencia en la gestión empresarial. Dom. Cien., 8(1), 1186-1200.',
       tipo: 'Documento ',
       link:
         'https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://dialnet.unirioja.es/descarga/articulo/8383455.pdf&ved=2ahUKEwj6oq6-zfWHAxVaSjABHTm7ERsQFnoECBgQAQ&usg=AOvVaw3EJ6N3fIfi4fD_oKDKghw9',
